@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>true</primitive>
+    <annotatorImplementationName>uimarwprojekt.markindirect.MarkIndirectRFTagger</annotatorImplementationName>
+    <analysisEngineMetaData>
+        <name>uimarwprojekt.markindirect.MarkIndirectRFTagger</name>
+        <version>0.0.1-SNAPSHOT</version>
+        <vendor>DKPro Core Project</vendor>
+        <copyright>Copyright 2010
+							Ubiquitous Knowledge Processing	(UKP) Lab
+							Technische Universität Darmstadt</copyright>
+        <configurationParameters>
+            <configurationParameter>
+                <name>Konjunktivverb-Liste</name>
+                <description>URL of the list of verbs in conjunctive mode</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>conjURL</name>
+                <description>URL of the list of conjunctions</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>quotMarksURL</name>
+                <description>URL of the list of quotation marks</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>debug</name>
+                <description>Output debugging info</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>removeSTWWord</name>
+                <description>Remove the frame word when processing</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>ignoreRepWords</name>
+                <description>Ignore all frame words with the marker 'rep'</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>useRFTagger</name>
+                <description>Use RFTagger in addition to TreeTagger</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>useConjVerbList</name>
+                <description>Use a list of conjunctive forms for identification.</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+        </configurationParameters>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>Konjunktivverb-Liste</name>
+                <value>
+                    <string>C:/Users/Annelen/Documents/eclipse-workspace/uimarwprojekt/src/main/resources/conj_verbs.list</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>conjURL</name>
+                <value>
+                    <string>C:/Users/Annelen/Documents/eclipse-workspace/uimarwprojekt/src/main/resources/conjunctions.list</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>quotMarksURL</name>
+                <value>
+                    <string>C:/Users/Annelen/Documents/eclipse-workspace/uimarwprojekt/src/main/resources/quotation_marks.list</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>debug</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>removeSTWWord</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>ignoreRepWords</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>useRFTagger</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>useConjVerbList</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+        <typeSystemDescription/>
+        <typePriorities/>
+        <fsIndexCollection/>
+        <capabilities/>
+        <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+</analysisEngineDescription>

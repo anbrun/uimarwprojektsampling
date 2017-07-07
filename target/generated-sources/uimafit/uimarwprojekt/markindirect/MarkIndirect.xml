@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    <primitive>true</primitive>
+    <annotatorImplementationName>uimarwprojekt.markindirect.MarkIndirect</annotatorImplementationName>
+    <analysisEngineMetaData>
+        <name>uimarwprojekt.markindirect.MarkIndirect</name>
+        <version>0.0.1-SNAPSHOT</version>
+        <vendor>DKPro Core Project</vendor>
+        <copyright>Copyright 2010
+							Ubiquitous Knowledge Processing	(UKP) Lab
+							Technische Universität Darmstadt</copyright>
+        <configurationParameters>
+            <configurationParameter>
+                <name>Liste der Konjunktivverben</name>
+                <description>URL of the list of verbs in conjunctive mode</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>PARAMCONJURL</name>
+                <description>URL of the list of conjunctions</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>Liste der Anführungszeichen</name>
+                <description>URL of the list of quotation marks</description>
+                <type>String</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>Debugging-Informationen ausgeben</name>
+                <description>Output debugging info</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>Wiedergabewort-Annotation entfernen</name>
+                <description>Remove the frame word when processing</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>Wiedergabewort-Annotationen mit Marker 'rep' ignorieren</name>
+                <description>Ignore all frame words with the marker 'rep'</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>RF-Tagger-Annotationen zusätzlich verwenden</name>
+                <description>Use RFTagger in addition to TreeTagger</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+            <configurationParameter>
+                <name>Liste mit Konjunktivverben verwenden</name>
+                <description>Use a list of conjunctive forms for identification.</description>
+                <type>Boolean</type>
+                <multiValued>false</multiValued>
+                <mandatory>true</mandatory>
+            </configurationParameter>
+        </configurationParameters>
+        <configurationParameterSettings>
+            <nameValuePair>
+                <name>Liste der Konjunktivverben</name>
+                <value>
+                    <string>C:/Users/Annelen/Documents/eclipse-workspace/uimarwprojekt/src/main/resources/conj_verbs.list</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>PARAMCONJURL</name>
+                <value>
+                    <string>C:/Users/Annelen/Documents/eclipse-workspace/uimarwprojekt/src/main/resources/conjunctions.list</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>Liste der Anführungszeichen</name>
+                <value>
+                    <string>C:/Users/Annelen/Documents/eclipse-workspace/uimarwprojekt/src/main/resources/quotation_marks.list</string>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>Debugging-Informationen ausgeben</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>Wiedergabewort-Annotation entfernen</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>Wiedergabewort-Annotationen mit Marker 'rep' ignorieren</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>RF-Tagger-Annotationen zusätzlich verwenden</name>
+                <value>
+                    <boolean>false</boolean>
+                </value>
+            </nameValuePair>
+            <nameValuePair>
+                <name>Liste mit Konjunktivverben verwenden</name>
+                <value>
+                    <boolean>true</boolean>
+                </value>
+            </nameValuePair>
+        </configurationParameterSettings>
+        <typeSystemDescription/>
+        <typePriorities/>
+        <fsIndexCollection/>
+        <capabilities/>
+        <operationalProperties>
+            <modifiesCas>true</modifiesCas>
+            <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            <outputsNewCASes>false</outputsNewCASes>
+        </operationalProperties>
+    </analysisEngineMetaData>
+</analysisEngineDescription>

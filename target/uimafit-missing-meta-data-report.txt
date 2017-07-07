@@ -1,0 +1,54 @@
+Class: uimarwprojekt.RFTaggerWrapper
+  No description found for parameter [Properties file for RFTagger]
+
+Class: uimarwprojekt.Sampler
+  No description found for parameter [Number of samples to draw from this text]
+  No description found for parameter [Length of samples to draw from this text]
+  No description found for parameter [Output directcory for samples]
+
+Class: uimarwprojekt.markframe.MarkFrame
+  No description found for parameter [removeSTWWord]
+  No description found for parameter [Debugging-Informationen ausgeben]
+  No description found for parameter [Maximaler Penalty-Wert, den das Wiedergabewort haben darf]
+
+Class: uimarwprojekt.markfreeindirect.MarkFreeIndirect
+  No description found for parameter [Debugging-Informationen ausgeben]
+  No description found for parameter [Grenze zur Annotation]
+  No description found for parameter [ADV-Wert als Indikator verwenden]
+  No description found for parameter [Liste der FI-Wörter]
+
+Class: uimarwprojekt.markindirect.MarkIndirect
+  No description found for parameter [Liste der Konjunktivverben]
+  No description found for parameter [Liste der Konjunktionen]
+  No description found for parameter [Liste der Anführungszeichen]
+  No description found for parameter [Debugging-Informationen ausgeben]
+  No description found for parameter [Wiedergabewort-Annotation entfernen]
+  No description found for parameter [Maximaler Penalty-Wert, den das Wiedergabewort haben darf]
+  No description found for parameter [Wiedergabewort-Annotationen mit Marker 'rep' ignorieren]
+  No description found for parameter [RF-Tagger-Annotationen zusätzlich verwenden]
+  No description found for parameter [Liste mit Konjunktivverben verwenden]
+
+Class: uimarwprojekt.markindirect.MarkIndirectRFTagger
+  No meta data [description] found
+  No description found for parameter [Konjunktivverb-Liste]
+  No description found for parameter [conjURL]
+  No description found for parameter [quotMarksURL]
+  No description found for parameter [debug]
+  No description found for parameter [removeSTWWord]
+  No description found for parameter [ignoreRepWords]
+  No description found for parameter [useRFTagger]
+  No description found for parameter [useConjVerbList]
+
+Class: uimarwprojekt.markquotation.MarkQuotation
+  No meta data [description] found
+  No description found for parameter [Debugging-Informationen ausgeben]
+
+Class: uimarwprojekt.markquotation.MarkQuotationAscii
+  No meta data [description] found
+  No description found for parameter [Debugging-Informationen ausgeben]
+
+Class: uimarwprojekt.markstwwords.MarkSTWWords
+  No description found for parameter [Debugging-Informationen ausgeben]
+  No description found for parameter [STW File]
+  No description found for parameter [Maximaler Penalty-Wert, den das Wiedergabewort haben darf]
+

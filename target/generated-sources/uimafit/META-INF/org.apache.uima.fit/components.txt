@@ -1,0 +1,4 @@
+classpath*:uimarwprojekt\markframe\MarkFrame.xml
+classpath*:uimarwprojekt\markindirect\MarkIndirect.xml
+classpath*:uimarwprojekt\markreported\MarkReported.xml
+classpath*:uimarwprojekt\markstwwords\MarkSTWWords.xml

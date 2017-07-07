@@ -1,0 +1,96 @@
+Märkische Blätter.
+			LIS Project
+			DFG
+			
+				transformed from TUSTEP to TEI by
+				Peter Fankhauser
+			
+		
+		
+			Hattingen, Nordrhein-Westfalen
+			19-01-1850
+			6
+			
+				Creative Commons 3.0: Namensnennung, nicht kommerziell,
+					http://creativecommons.org/licenses/by-nc/3.0/de/legalcode
+				
+            
+        
+			
+		
+		
+			Milestones with @type=tustepsource point to the original tustep
+				transcription in @facs.
+			
+            
+        
+			Pagebreaks (pb) point to the jpeg file in @facs.
+            
+        
+		
+	
+	
+		
+			Original transcription with TUSTEP markup has been acquired in a
+				double keying procedure.
+			
+            
+        
+			TUSTEP markup has been transformed and enriched to TEI.
+            
+        
+			No normalization has been carried out.
+            
+        
+			
+				Line breaks with attribute @break=no indicate soft hyphenation.
+					Hyphens are encoded as either "=" or "-".
+					Hyphenated tokens are explicitly marked up as w-elements.
+				
+            
+        
+			
+		
+	
+	
+		
+			2013
+			IDS Mannheim
+		
+	
+
+
+
+    
+    
+       Märkische Blätter.
+      
+         
+        
+      
+       Wochenblatt
+       für belehrende und angenehme Unterhaltung.
+    
+            
+        
+    
+     Nro. 6. Hattingen, Sonnabend, den 19. Januar1850.
+            
+        
+    
+       
+      
+    
+            
+        
+    
+      
+        
+           Die Marquise von Ganges.
+          
+            
+        
+         Die Marquise von Ganges war ein geborenes Fräu=lein von Chateaublanc, besaß ein ungeheures Vermögen und gehörte einer der ersten Familien der Provence an. Jm Alter von dreizehn Jahren heirathete sie den Mar=quis von Castellane, einen Enkelsohn des Herzogs von Villars. Sie war eine der auffallendsten Schönheiten am Hofe Ludwig XIV., der an Schönheiten so reich war. Jhr Gemahl der Marquis von Castellane, fiel in einem Seetreffen, und sie verheirathete sich zum zweiten Mal mit einem Herrn von Lanide, Marquis von Ganges, der ein sehr schöner Mann von untadelhaftem Adel, aber in sehr zerrütteten Vermögensumständen war. Der Marquis von Ganges hatte zwei Brüder, einen Cheva=lier von Ganges und einen Abbe von Ganges, die, als jüngere Söhne der Familie, ein sehr kärgliches Auskom=men hatten. Beide verliebten sich in ihre Schwägerin. Diese setzte ihrer Liebe aber nur die kälteste Verachtung entge=gen. Der Wunsch sich zu rächen und die Habsucht flöß=ten ihnen einen höllischen Plan ein. Sie heuchelten Entsagung, versöhnten sich mit der Marquise, und ver=lockten, im Einverständnisse mit dem Marquis von Gan=ges, die Unglückliche nach dem Schlosse Ganges. Hier  überredeten sie dieselbe, ein Testament aufzusetzen, in welchem sie ihrem Gatten mit ihrem ganzen unermeßli=chen Vermögen ein Geschenk machte. Als das Testament aufgesetzt war, entfernte sich der Herr Gemahl und ließ seinen beiden Brüdern freies Feld.
+            
+        
+         Jetzt spielen Auftritte, denen man keinen Glauben schenken dürfte, wären sie nicht unwiderlegbar durch die Verhandlungen festgestellt, die dem Richterspruche des Parlaments von Toulouse vorangingen. Zuerst versuchte der Abbe und der Chevalier die Marquise durch eine Speise zu vergiften. Aber sei es, daß die Dosis nicht ausreichend war, oder daß die Marquise Verdacht schöpfte, sie bekam nur ein heftiges Erbrechen davon.

@@ -1,0 +1,1 @@
+classpath*:uimarwprojekt/types/RWProjektTypeSystem.xml
